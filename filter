@@ -1,0 +1,26 @@
+const a = [10, 20, 15, 18, 16, 40, 35]
+
+const newa = a.filter(x => x <= 20 );
+
+const suma = a.filter(x => x >= 20);
+
+console.log(newa);
+
+const a = [2, 3, 4, 10];
+
+const newa = a.filter(x => x%2 == 0);
+
+const a = [{
+  name : 'Mou',
+  age : 26
+  },
+  {
+    name : 'Papu',
+  age : 27
+  },
+  {
+    name : 'Rana',
+  age : 26
+  }]
+  
+  const newa = a.filter(x => x.age == 26)

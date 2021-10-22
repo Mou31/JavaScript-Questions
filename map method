@@ -1,0 +1,9 @@
+const a = ["PAPU", "MOU", "RANA", "PRASHANT"]
+
+const newa = a.map(x => "Hello "+ x);
+
+console.log(newa);
+
+// const a = [2, 3, 4, 10];
+
+// const newa = a.map(x => x*2);

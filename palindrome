@@ -1,0 +1,8 @@
+// Check if a string is palindrome
+
+const Palindrome = (str) => {
+  const isPalindrome = str.split('').reverse().join('');
+  console.log(str === isPalindrome);
+}
+
+Palindrome("mou")

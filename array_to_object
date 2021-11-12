@@ -1,0 +1,13 @@
+// How to convert an Array [] to Object {} in JavaScript
+
+let arr = [1,2,3,4,5]
+
+let arr1 = [
+    ["id", 1],
+    ["firstName", "Mou"],
+    ["lastName", "Mazumder"]
+]
+
+console.log(Object.assign({}, arr));
+
+console.log({...arr1});
